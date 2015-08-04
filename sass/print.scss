@@ -44,30 +44,21 @@ body {
   }
 }
 
-h1 {
-  &.custom_heading {
-    color: white;
-    font-weight: 500;
-    font: 22px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    display: block;
-    top: 200px;
-  }
-}
+
 
 .button {
-
   display: block;
-  height: 31px;
-  width: 200px;
+  height: 25px;
+  width: 190px;
   padding: 15px 30px;
   background: transparent;
   border: 1.5px solid white;
   position: relative;
   top: 300px;
-  left: 550px;
+  left: 800px;
   vertical-align: middle;
-  color: white;
   text-align: center;
+  color: white;
   font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-radius: 6px;
   text-decoration: none;
@@ -78,26 +69,49 @@ h1 {
 }
 
 .curtain {
-  width: auto;
-  height: 1000px;
   background-color: #6f5499;
-  margin-left: 0;
-  margin-right: 0;
   margin-top: 20px;
+  text-align: center;
+
+  span {
+    display: inline;
+    margin-top: 250px;
+    width: 144px;
+    height: 144px;
+    background: transparent;
+    border: 1.5px solid white;
+    border-radius: 6px;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+  }
+  p {
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    color: white;
+    font-weight: bold;
+    line-height: 2.4;
+    font: 30px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 65%;
+    text-align: center;
+  }
 }
 
 ul.leftmenu {
   display: inline;
+  margin-right: 200px;
   @include menulist;
 }
 
 ul.rightmenu {
   display: inline;
-  margin-left: 350px;
+  margin-left: 400px;
   top: 10px;
   right: 40px;
   @include menulist;
 }
+
 
 
 

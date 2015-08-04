@@ -1,7 +1,7 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-/* line 35, ../sass/print.scss */
+/* line 32, ../sass/print.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -9,59 +9,73 @@ body {
   color: #333;
 }
 
-/* line 43, ../sass/print.scss */
+/* line 40, ../sass/print.scss */
 .headersection a {
   display: inline;
   text-decoration: none;
   font-size: 14px;
 }
 
-/* line 51, ../sass/print.scss */
-h1.custom_heading {
-  color: white;
-  font-weight: 500;
-  font: 22px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  display: block;
-  top: 200px;
-}
-
-/* line 60, ../sass/print.scss */
+/* line 49, ../sass/print.scss */
 .button {
   display: block;
-  height: 31px;
-  width: 200px;
+  height: 25px;
+  width: 190px;
   padding: 15px 30px;
   background: transparent;
   border: 1.5px solid white;
   position: relative;
   top: 300px;
-  left: 550px;
+  left: 800px;
   vertical-align: middle;
-  color: white;
   text-align: center;
+  color: white;
   font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-radius: 6px;
   text-decoration: none;
 }
-/* line 77, ../sass/print.scss */
+/* line 65, ../sass/print.scss */
 .button:hover {
   background: white;
   color: #6f5499;
 }
 
-/* line 83, ../sass/print.scss */
+/* line 71, ../sass/print.scss */
 .curtain {
-  width: auto;
-  height: 1000px;
   background-color: #6f5499;
-  margin-left: 0;
-  margin-right: 0;
   margin-top: 20px;
+  text-align: center;
+}
+/* line 76, ../sass/print.scss */
+.curtain span {
+  display: inline;
+  margin-top: 250px;
+  width: 144px;
+  height: 144px;
+  background: transparent;
+  border: 1.5px solid white;
+  border-radius: 6px;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+/* line 88, ../sass/print.scss */
+.curtain p {
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+  color: white;
+  font-weight: bold;
+  line-height: 2.4;
+  font: 30px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 65%;
+  text-align: center;
 }
 
-/* line 92, ../sass/print.scss */
+/* line 101, ../sass/print.scss */
 ul.leftmenu {
   display: inline;
+  margin-right: 200px;
 }
 /* line 7, ../sass/print.scss */
 ul.leftmenu li {
@@ -80,26 +94,21 @@ ul.leftmenu li.custom_li {
 /* line 17, ../sass/print.scss */
 ul.leftmenu li.custom_li:hover {
   background: white;
-  background: url('/images/devices.png?1438583095'), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwY2MwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjMDAwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background: url('/images/devices.png?1438583095'), -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #333333), color-stop(100%, #00cc00)), radial-gradient(#cc0000, #ffffff 100px);
-  background: url('/images/devices.png?1438583095'), -moz-linear-gradient(top, #333333, #00cc00), -moz-radial-gradient(#cc0000, #ffffff 100px);
-  background: url('/images/devices.png?1438583095'), -webkit-linear-gradient(top, #333333, #00cc00), -webkit-radial-gradient(#cc0000, #ffffff 100px);
-  background: url('/images/devices.png?1438583095'), linear-gradient(to bottom right, #333333, #00cc00), radial-gradient(#cc0000, #ffffff 100px);
 }
-/* line 23, ../sass/print.scss */
+/* line 20, ../sass/print.scss */
 ul.leftmenu li.custom_li a {
   font-weigth: 500;
   font-size: 20px;
 }
-/* line 28, ../sass/print.scss */
+/* line 25, ../sass/print.scss */
 ul.leftmenu li:hover {
   background: #f4f4f4;
 }
 
-/* line 97, ../sass/print.scss */
+/* line 107, ../sass/print.scss */
 ul.rightmenu {
   display: inline;
-  margin-left: 350px;
+  margin-left: 400px;
   top: 10px;
   right: 40px;
 }
@@ -120,18 +129,13 @@ ul.rightmenu li.custom_li {
 /* line 17, ../sass/print.scss */
 ul.rightmenu li.custom_li:hover {
   background: white;
-  background: url('/images/devices.png?1438583095'), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwY2MwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjMDAwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background: url('/images/devices.png?1438583095'), -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #333333), color-stop(100%, #00cc00)), radial-gradient(#cc0000, #ffffff 100px);
-  background: url('/images/devices.png?1438583095'), -moz-linear-gradient(top, #333333, #00cc00), -moz-radial-gradient(#cc0000, #ffffff 100px);
-  background: url('/images/devices.png?1438583095'), -webkit-linear-gradient(top, #333333, #00cc00), -webkit-radial-gradient(#cc0000, #ffffff 100px);
-  background: url('/images/devices.png?1438583095'), linear-gradient(to bottom right, #333333, #00cc00), radial-gradient(#cc0000, #ffffff 100px);
 }
-/* line 23, ../sass/print.scss */
+/* line 20, ../sass/print.scss */
 ul.rightmenu li.custom_li a {
   font-weigth: 500;
   font-size: 20px;
 }
-/* line 28, ../sass/print.scss */
+/* line 25, ../sass/print.scss */
 ul.rightmenu li:hover {
   background: #f4f4f4;
 }
