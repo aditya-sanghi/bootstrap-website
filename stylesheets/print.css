@@ -16,37 +16,37 @@ body {
   font-size: 14px;
 }
 
-/* line 49, ../sass/print.scss */
+/* line 47, ../sass/print.scss */
 .button {
   display: block;
+  margin-top: 40px;
+  margin-left: 43%;
   height: 25px;
-  width: 190px;
+  width: 186px;
   padding: 15px 30px;
   background: transparent;
-  border: 1.5px solid white;
-  position: relative;
-  top: 300px;
-  left: 800px;
-  vertical-align: middle;
+  border: 1px solid white;
   text-align: center;
   color: white;
   font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-radius: 6px;
   text-decoration: none;
 }
-/* line 65, ../sass/print.scss */
+/* line 61, ../sass/print.scss */
 .button:hover {
   background: white;
   color: #6f5499;
 }
 
-/* line 71, ../sass/print.scss */
+/* line 67, ../sass/print.scss */
 .curtain {
   background-color: #6f5499;
   margin-top: 20px;
   text-align: center;
+  padding-top: 75px;
+  padding-bottom: 300px;
 }
-/* line 76, ../sass/print.scss */
+/* line 74, ../sass/print.scss */
 .curtain span {
   display: inline;
   margin-top: 250px;
@@ -54,25 +54,26 @@ body {
   height: 144px;
   background: transparent;
   border: 1.5px solid white;
-  border-radius: 6px;
+  border-radius: 15px;
   color: white;
-  font-size: 80px;
+  font-size: 110px;
+  font-weight: 500;
   text-align: center;
+  padding: 7px 30px 7px 30px;
 }
 /* line 88, ../sass/print.scss */
 .curtain p {
-  width: 100%;
   display: block;
   margin: 20px auto;
   color: white;
-  font-weight: bold;
+  font-weight: 200;
   line-height: 2.4;
   font: 30px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  width: 65%;
+  width: 52%;
   text-align: center;
 }
 
-/* line 101, ../sass/print.scss */
+/* line 100, ../sass/print.scss */
 ul.leftmenu {
   display: inline;
   margin-right: 200px;
@@ -105,7 +106,7 @@ ul.leftmenu li:hover {
   background: #f4f4f4;
 }
 
-/* line 107, ../sass/print.scss */
+/* line 106, ../sass/print.scss */
 ul.rightmenu {
   display: inline;
   margin-left: 400px;
